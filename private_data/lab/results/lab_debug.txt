@@ -1,0 +1,939 @@
+sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+sudo: a password is required
+
+sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+sudo: a password is required
+
+sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+sudo: a password is required
+
+sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[31mTask 1: pwd output missing – Fail[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[31mTask 3: ls -l info missing – Fail[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[31mTask 6: Linux pwd output missing – Fail[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[31mTask 8: Final pwd output missing – Fail[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 13 out of 17 tasks passed[0m
+[33mPercentage: 76%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[31mTask 1: pwd output missing – Fail[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[31mTask 3: ls -l info missing – Fail[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[31mTask 6: Linux pwd output missing – Fail[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[31mTask 8: Final pwd output missing – Fail[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 13 out of 17 tasks passed[0m
+[33mPercentage: 76%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[31mTask 1: pwd output missing – Fail[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[31mTask 3: ls -l info missing – Fail[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[31mTask 6: Linux pwd output missing – Fail[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[31mTask 8: Final pwd output missing – Fail[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 13 out of 17 tasks passed[0m
+[33mPercentage: 76%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[31mTask 1: pwd output missing – Fail[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[31mTask 3: ls -l info missing – Fail[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[31mTask 6: Linux pwd output missing – Fail[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[31mTask 8: Final pwd output missing – Fail[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 13 out of 17 tasks passed[0m
+[33mPercentage: 76%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[32mTask 1: Present working directory appended – Pass[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[32mTask 3: ls -l output logged – Pass[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[31mTask 6: Linux pwd output missing – Fail[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[32mTask 8: cd .. and pwd output captured – Pass[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 16 out of 17 tasks passed[0m
+[33mPercentage: 94%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[32mTask 1: Present working directory appended – Pass[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[32mTask 3: ls -l output logged – Pass[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[31mTask 6: Linux pwd output missing – Fail[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[32mTask 8: cd .. and pwd output captured – Pass[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 16 out of 17 tasks passed[0m
+[33mPercentage: 94%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[32mTask 1: Present working directory appended – Pass[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[32mTask 3: ls -l output logged – Pass[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[31mTask 6: Linux pwd output missing – Fail[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[32mTask 8: cd .. and pwd output captured – Pass[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 16 out of 17 tasks passed[0m
+[33mPercentage: 94%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[32mTask 1: Present working directory appended – Pass[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[32mTask 3: ls -l output logged – Pass[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[32mTask 6: Verified inside Linux directory – Pass[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[32mTask 8: cd .. and pwd output captured – Pass[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 17 out of 17 tasks passed[0m
+[33mPercentage: 100%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab2 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab2 - Linux Filesystem Management ...[0m
+[32mTask 1: Nested directory vars/systems/logs created – Pass[0m
+[31mTask 2: dmesg file missing – Fail[0m
+[32mTask 3: file1.txt with correct content – Pass[0m
+[32mTask 4: Nested directory vars/os/configs created – Pass[0m
+[32mTask 5: /etc/hosts copied to vars/os/configs – Pass[0m
+[32mTask 6: hosts copied from configs to vars – Pass[0m
+[32mTask 7: cat used to display hosts in vars – Pass[0m
+[32mTask 8: hosts content redirected to new_hosts – Pass[0m
+[32mTask 9: file1.txt copied and renamed to new_file1.txt – Pass[0m
+[31mTask 10: One or both config files missing – Fail[0m
+[32mTask 11: new_file.txt file has expected content – Pass[0m
+[32mTask 12: rmdir failed as expected due to contents – Pass[0m
+[31mTask 13: tail output not properly appended – Fail[0m
+[32mTask 14: head output overwritten in group_output.txt – Pass[0m
+[32mTask 15: file command output stored correctly – Pass[0m
+
+[36mSummary: 12 out of 15 tasks passed[0m
+[33mPercentage: 80%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab2 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab2 - Linux Filesystem Management ...[0m
+[32mTask 1: Nested directory vars/systems/logs created – Pass[0m
+[32mTask 2: Empty file dmesg created – Pass[0m
+[32mTask 3: file1.txt with correct content – Pass[0m
+[32mTask 4: Nested directory vars/os/configs created – Pass[0m
+[32mTask 5: /etc/hosts copied to vars/os/configs – Pass[0m
+[32mTask 6: hosts copied from configs to vars – Pass[0m
+[32mTask 7: cat used to display hosts in vars – Pass[0m
+[32mTask 8: hosts content redirected to new_hosts – Pass[0m
+[32mTask 9: file1.txt copied and renamed to new_file1.txt – Pass[0m
+[32mTask 10: sshd_config and httpd.conf created – Pass[0m
+[32mTask 11: new_file.txt file has expected content – Pass[0m
+[32mTask 12: rmdir failed as expected due to contents – Pass[0m
+[32mTask 13: tail output appended to switch_output.txt – Pass[0m
+[32mTask 14: head output overwritten in dns_output.txt – Pass[0m
+[32mTask 15: file command output stored correctly – Pass[0m
+
+[36mSummary: 15 out of 15 tasks passed[0m
+[33mPercentage: 100%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[32mTask 1: Present working directory appended – Pass[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[32mTask 3: ls -l output logged – Pass[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[32mTask 6: Verified inside Linux directory – Pass[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[32mTask 8: cd .. and pwd output captured – Pass[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 17 out of 17 tasks passed[0m
+[33mPercentage: 100%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[32mTask 1: Present working directory appended – Pass[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[32mTask 3: ls -l output logged – Pass[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[32mTask 6: Verified inside Linux directory – Pass[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[32mTask 8: cd .. and pwd output captured – Pass[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 17 out of 17 tasks passed[0m
+[33mPercentage: 100%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab2 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab2 - Linux Filesystem Management ...[0m
+[32mTask 1: Nested directory vars/systems/logs created – Pass[0m
+[32mTask 2: Empty file dmesg created – Pass[0m
+[32mTask 3: file1.txt with correct content – Pass[0m
+[32mTask 4: Nested directory vars/os/configs created – Pass[0m
+[32mTask 5: /etc/hosts copied to vars/os/configs – Pass[0m
+[32mTask 6: hosts copied from configs to vars – Pass[0m
+[32mTask 7: cat used to display hosts in vars – Pass[0m
+[32mTask 8: hosts content redirected to new_hosts – Pass[0m
+[32mTask 9: file1.txt copied and renamed to new_file1.txt – Pass[0m
+[32mTask 10: sshd_config and httpd.conf created – Pass[0m
+[32mTask 11: new_file.txt file has expected content – Pass[0m
+[32mTask 12: rmdir failed as expected due to contents – Pass[0m
+[32mTask 13: tail output appended to switch_output.txt – Pass[0m
+[32mTask 14: head output overwritten in dns_output.txt – Pass[0m
+[32mTask 15: file command output stored correctly – Pass[0m
+
+[36mSummary: 15 out of 15 tasks passed[0m
+[33mPercentage: 100%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[32mTask 1: Present working directory appended – Pass[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[32mTask 3: ls -l output logged – Pass[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[32mTask 6: Verified inside Linux directory – Pass[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[32mTask 8: cd .. and pwd output captured – Pass[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36mSummary: 17 out of 17 tasks passed[0m
+[33mPercentage: 100%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab2 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab2 - Linux Filesystem Management ...[0m
+[32mTask 1: Nested directory vars/systems/logs created – Pass[0m
+[32mTask 2: Empty file dmesg created – Pass[0m
+[32mTask 3: file1.txt with correct content – Pass[0m
+[32mTask 4: Nested directory vars/os/configs created – Pass[0m
+[32mTask 5: /etc/hosts copied to vars/os/configs – Pass[0m
+[32mTask 6: hosts copied from configs to vars – Pass[0m
+[32mTask 7: cat used to display hosts in vars – Pass[0m
+[32mTask 8: hosts content redirected to new_hosts – Pass[0m
+[32mTask 9: file1.txt copied and renamed to new_file1.txt – Pass[0m
+[32mTask 10: sshd_config and httpd.conf created – Pass[0m
+[32mTask 11: new_file.txt file has expected content – Pass[0m
+[32mTask 12: rmdir failed as expected due to contents – Pass[0m
+[32mTask 13: tail output appended to switch_output.txt – Pass[0m
+[32mTask 14: head output overwritten in dns_output.txt – Pass[0m
+[32mTask 15: file command output stored correctly – Pass[0m
+
+[36mSummary: 15 out of 15 tasks passed[0m
+[33mPercentage: 100%[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 127
+OUTPUT:
+/var/www/private_data/lab/validator-2026.sh: line 210: unexpected EOF while looking for matching `"'
+/var/www/private_data/lab/validator-2026.sh: line 215: syntax error: unexpected end of file
+/var/www/private_data/lab/validate_lab.sh: line 18: validate_lab1_navigation: command not found
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 127
+OUTPUT:
+/var/www/private_data/lab/validator-2026.sh: line 209: unexpected EOF while looking for matching `"'
+/var/www/private_data/lab/validator-2026.sh: line 213: syntax error: unexpected end of file
+/var/www/private_data/lab/validate_lab.sh: line 18: validate_lab1_navigation: command not found
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 127
+OUTPUT:
+/var/www/private_data/lab/validator-2026.sh: line 197: syntax error: unexpected end of file
+/var/www/private_data/lab/validate_lab.sh: line 18: validate_lab1_navigation: command not found
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+
+[34mChecking Lab1 - Linux Basic Commands & Navigation...[0m
+[32mTask 1: Present working directory appended – Pass[0m
+[32mTask 2: Kernel version logged – Pass[0m
+[32mTask 3: ls -l output logged – Pass[0m
+[32mTask 4: ls -al output logged – Pass[0m
+[32mTask 5: Linux directory created – Pass[0m
+[32mTask 6: Verified inside Linux directory – Pass[0m
+[32mTask 7: Subdirectories Redhat, oel, debian created – Pass[0m
+[32mTask 8: cd .. and pwd output captured – Pass[0m
+[32mTask 9a: file1.txt created or moved correctly – Pass[0m
+[32mTask 9b: pic.jpg created or moved correctly – Pass[0m
+[32mTask 9c: clip.avi created or moved correctly – Pass[0m
+[32mTask 10a: file1.txt moved to documents – Pass[0m
+[32mTask 10b: pic.jpg moved to images – Pass[0m
+[32mTask 10c: clip.avi moved to media – Pass[0m
+[32mTask 11: Nested directories created with mkdir -p – Pass[0m
+[32mTask 12: file1.txt copied to office – Pass[0m
+[32mTask 13: pic.jpg copied to hobby – Pass[0m
+[32mTask 14: tree output saved correctly – Pass[0m
+
+[36m========= RESULT SUMMARY =========[0m
+[32mNAME            = shahid[0m
+[33mTOTAL TASKS     = 17[0m
+[34mPASSED          = 17[0m
+[35mPERCENTAGE      = 100%[0m
+[36m==================================[0m
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 127
+OUTPUT:
+/var/www/private_data/lab/validator-2026.sh: line 225: unexpected EOF while looking for matching `"'
+/var/www/private_data/lab/validator-2026.sh: line 231: syntax error: unexpected end of file
+/var/www/private_data/lab/validate_lab.sh: line 18: validate_lab1_navigation: command not found
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 127
+OUTPUT:
+/var/www/private_data/lab/validator-2026.sh: line 226: unexpected EOF while looking for matching `"'
+/var/www/private_data/lab/validator-2026.sh: line 232: syntax error: unexpected end of file
+/var/www/private_data/lab/validate_lab.sh: line 18: validate_lab1_navigation: command not found
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 127
+OUTPUT:
+/var/www/private_data/lab/validator-2026.sh: line 224: unexpected EOF while looking for matching `"'
+/var/www/private_data/lab/validator-2026.sh: line 230: syntax error: unexpected end of file
+/var/www/private_data/lab/validate_lab.sh: line 18: validate_lab1_navigation: command not found
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#000080;'>Checking Lab1 - Linux Basic Commands & Navigation...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Present working directory appended - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Kernel version logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: ls -l output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: ls -al output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: Linux directory created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: Verified inside Linux directory - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: Subdirectories Redhat, oel, debian created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: cd .. and pwd output captured - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9a: file1.txt created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9b: pic.jpg created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9c: clip.avi created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10a: file1.txt moved to documents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10b: pic.jpg moved to images - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10c: clip.avi moved to media - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: Nested directories created with mkdir -p - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: file1.txt copied to office - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: pic.jpg copied to hobby - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: tree output saved correctly - PASS</div>
+<h2 style='font-weight:bold;color:#000080;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 17<br>
+PASSED = 17<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab1 - Linux Basic Commands & Navigation...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Present working directory appended - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Kernel version logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: ls -l output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: ls -al output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: Linux directory created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: Verified inside Linux directory - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: Subdirectories Redhat, oel, debian created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: cd .. and pwd output captured - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9a: file1.txt created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9b: pic.jpg created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9c: clip.avi created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10a: file1.txt moved to documents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10b: pic.jpg moved to images - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10c: clip.avi moved to media - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: Nested directories created with mkdir -p - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: file1.txt copied to office - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: pic.jpg copied to hobby - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: tree output saved correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 17<br>
+PASSED = 17<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab2 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab2 - Linux Filesystem Management...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Nested directory vars/systems/logs created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Empty file dmesg created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: file1.txt with correct content - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: Nested directory vars/os/configs created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: /etc/hosts copied to vars/os/configs - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: hosts copied from configs to vars - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: cat used to display hosts in vars - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: hosts content redirected to new_hosts - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9: file1.txt copied and renamed to new_file1.txt - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10: sshd_config and httpd.conf created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: new_file.txt file has expected content - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: rmdir failed as expected due to contents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: tail output appended to switch_output.txt - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: head output overwritten in dns_output.txt - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 15: file command output stored correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 15<br>
+PASSED = 15<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab1 - Linux Basic Commands & Navigation...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Present working directory appended - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Kernel version logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: ls -l output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: ls -al output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: Linux directory created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: Verified inside Linux directory - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: Subdirectories Redhat, oel, debian created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: cd .. and pwd output captured - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9a: file1.txt created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9b: pic.jpg created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9c: clip.avi created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10a: file1.txt moved to documents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10b: pic.jpg moved to images - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10c: clip.avi moved to media - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: Nested directories created with mkdir -p - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: file1.txt copied to office - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: pic.jpg copied to hobby - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: tree output saved correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 17<br>
+PASSED = 17<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab2 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab2 - Linux Filesystem Management...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Nested directory vars/systems/logs created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Empty file dmesg created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: file1.txt with correct content - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: Nested directory vars/os/configs created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: /etc/hosts copied to vars/os/configs - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: hosts copied from configs to vars - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: cat used to display hosts in vars - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: hosts content redirected to new_hosts - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9: file1.txt copied and renamed to new_file1.txt - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10: sshd_config and httpd.conf created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: new_file.txt file has expected content - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: rmdir failed as expected due to contents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: tail output appended to switch_output.txt - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: head output overwritten in dns_output.txt - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 15: file command output stored correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 15<br>
+PASSED = 15<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab1 - Linux Basic Commands & Navigation...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Present working directory appended - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Kernel version logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: ls -l output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: ls -al output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: Linux directory created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: Verified inside Linux directory - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: Subdirectories Redhat, oel, debian created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: cd .. and pwd output captured - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9a: file1.txt created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9b: pic.jpg created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9c: clip.avi created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10a: file1.txt moved to documents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10b: pic.jpg moved to images - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10c: clip.avi moved to media - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: Nested directories created with mkdir -p - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: file1.txt copied to office - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: pic.jpg copied to hobby - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: tree output saved correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 17<br>
+PASSED = 17<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab1 - Linux Basic Commands & Navigation...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Present working directory appended - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Kernel version logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: ls -l output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: ls -al output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: Linux directory created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: Verified inside Linux directory - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: Subdirectories Redhat, oel, debian created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: cd .. and pwd output captured - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9a: file1.txt created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9b: pic.jpg created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9c: clip.avi created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10a: file1.txt moved to documents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10b: pic.jpg moved to images - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10c: clip.avi moved to media - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: Nested directories created with mkdir -p - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: file1.txt copied to office - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: pic.jpg copied to hobby - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: tree output saved correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 17<br>
+PASSED = 17<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab1 - Linux Basic Commands & Navigation...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Present working directory appended - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Kernel version logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: ls -l output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: ls -al output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: Linux directory created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: Verified inside Linux directory - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: Subdirectories Redhat, oel, debian created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: cd .. and pwd output captured - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9a: file1.txt created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9b: pic.jpg created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9c: clip.avi created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10a: file1.txt moved to documents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10b: pic.jpg moved to images - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10c: clip.avi moved to media - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: Nested directories created with mkdir -p - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: file1.txt copied to office - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: pic.jpg copied to hobby - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: tree output saved correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 17<br>
+PASSED = 17<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab1 - Linux Basic Commands & Navigation...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Present working directory appended - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Kernel version logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: ls -l output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: ls -al output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: Linux directory created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: Verified inside Linux directory - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: Subdirectories Redhat, oel, debian created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: cd .. and pwd output captured - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9a: file1.txt created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9b: pic.jpg created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9c: clip.avi created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10a: file1.txt moved to documents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10b: pic.jpg moved to images - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10c: clip.avi moved to media - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: Nested directories created with mkdir -p - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: file1.txt copied to office - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: pic.jpg copied to hobby - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: tree output saved correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 17<br>
+PASSED = 17<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab2 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab2 - Linux Filesystem Management...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Nested directory vars/systems/logs created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Empty file dmesg created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: file1.txt with correct content - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: Nested directory vars/os/configs created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: /etc/hosts copied to vars/os/configs - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: hosts copied from configs to vars - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: cat used to display hosts in vars - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: hosts content redirected to new_hosts - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9: file1.txt copied and renamed to new_file1.txt - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10: sshd_config and httpd.conf created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: new_file.txt file has expected content - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: rmdir failed as expected due to contents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: tail output appended to switch_output.txt - PASS</div>
+<div style='color:red;font-weight:bold;'>Task 14: dns_output.txt content mismatch - FAIL</div>
+<div style='color:green;font-weight:bold;'>Task 15: file command output stored correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 15<br>
+PASSED = 14<br>
+PERCENTAGE = 93%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab1 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab1 - Linux Basic Commands & Navigation...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Present working directory appended - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Kernel version logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: ls -l output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: ls -al output logged - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: Linux directory created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: Verified inside Linux directory - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: Subdirectories Redhat, oel, debian created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: cd .. and pwd output captured - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9a: file1.txt created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9b: pic.jpg created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9c: clip.avi created or moved correctly - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10a: file1.txt moved to documents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10b: pic.jpg moved to images - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10c: clip.avi moved to media - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: Nested directories created with mkdir -p - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: file1.txt copied to office - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: pic.jpg copied to hobby - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 14: tree output saved correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 17<br>
+PASSED = 17<br>
+PERCENTAGE = 100%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+
+CMD: sudo -n /usr/bin/bash /var/www/private_data/lab/validate_lab.sh lab2 shahid 2>&1
+STATUS: 0
+OUTPUT:
+<h2 style='color:#white;'>Checking Lab2 - Linux Filesystem Management...</h2>
+<div style='color:green;font-weight:bold;'>Task 1: Nested directory vars/systems/logs created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 2: Empty file dmesg created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 3: file1.txt with correct content - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 4: Nested directory vars/os/configs created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 5: /etc/hosts copied to vars/os/configs - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 6: hosts copied from configs to vars - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 7: cat used to display hosts in vars - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 8: hosts content redirected to new_hosts - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 9: file1.txt copied and renamed to new_file1.txt - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 10: sshd_config and httpd.conf created - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 11: new_file.txt file has expected content - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 12: rmdir failed as expected due to contents - PASS</div>
+<div style='color:green;font-weight:bold;'>Task 13: tail output appended to switch_output.txt - PASS</div>
+<div style='color:red;font-weight:bold;'>Task 14: dns_output.txt content mismatch - FAIL</div>
+<div style='color:green;font-weight:bold;'>Task 15: file command output stored correctly - PASS</div>
+<h2 style='font-weight:bold;color:white;'> ========== LAB RESULT SUMMARY ========== </h2>
+<div style='font-weight:bold;'>
+NAME = shahid<br>
+TOTAL TASKS = 15<br>
+PASSED = 14<br>
+PERCENTAGE = 93%<br>
+</div>
+<h3>==================================</h3>
+PHP USER: apache
+
+SUDO TEST: sudo: a password is required
+

@@ -1,0 +1,388 @@
+/* =========================
+   LAB MODULE (FINAL VERSION)
+   SAFE GLOBAL STATE VERSION
+========================= */
+
+
+/* =========================
+   LOAD LAB SECTION
+========================= */
+
+function loadLabSection() {
+
+    fetch(`get_item.php?section=lab&file=list.json`)
+        .then(res => res.json())
+        .then(data => {
+
+            let itemList = document.getElementById("itemList");
+            itemList.innerHTML = "";
+
+            data.forEach(item => {
+
+                let li = document.createElement("li");
+
+                li.innerHTML = `
+                    <button onclick="openItem('lab', '${item.file}')">
+                        ${item.name}
+                    </button>
+                `;
+
+                itemList.appendChild(li);
+            });
+
+        })
+        .catch(err => {
+            console.error("Lab load error:", err);
+            document.getElementById("itemList").innerHTML =
+                "<li>Error loading labs</li>";
+        });
+}
+
+
+/* =========================
+   RENDER LAB QUESTIONS
+========================= */
+console.log("LAB DATA =", AppState.currentData);
+function renderLabQuestions() {
+
+    const data = AppState.currentData;
+    const state = AppState.labState;
+
+    if (!data) {
+        console.error("Lab data missing");
+        return;
+    }
+
+    let html = `
+        <div class="question-box">
+
+            <h2 style="color:#000080; margin-bottom:10px;">
+                ${data.title || "Lab"}
+            </h2>
+
+            <h3 style="color:#000080; margin-bottom:20px;">
+                ${data.description || ""}
+            </h3>
+	    <h3 style="color:#38bdf8; margin-bottom:20px;">
+                ${data.instructions || ""}
+            </h3>
+
+    `;
+
+    let counter = 0;
+
+    /* =========================
+       FORMAT 1: sections/tasks (old format)
+    ========================= */
+
+    if (data.sections) {
+
+        data.sections.forEach(section => {
+
+            html += `
+                <h3 style="color:#38bdf8; margin-top:25px; margin-bottom:15px;">
+                    ${section.section_title || ""}
+                </h3>
+            `;
+
+            (section.tasks || []).forEach(q => {
+
+                let index = counter++;
+                let status = state.status[index] || "";
+
+                let questionText = q.question || "No question";
+
+                let borderColor =
+                    status === "done" ? "#22c55e" :
+                    status === "review" ? "#f59e0b" :
+                    "#38bdf8";
+
+                let doneBg = status === "done" ? "#22c55e" : "#334155";
+                let reviewBg = status === "review" ? "#f59e0b" : "#334155";
+
+                html += `
+                    <div style="
+                        padding:12px;
+                        margin-bottom:12px;
+                        border-radius:8px;
+                        background:#1e293b;
+                        color:white;
+                        border-left:4px solid ${borderColor};
+                    ">
+
+                        <div onclick="openLabQuestion(${index})"
+                             style="cursor:pointer; margin-bottom:10px;">
+                            Q${q.id || index + 1}. ${questionText}
+                        </div>
+
+                        <div>
+                            <button onclick="setStatus(${index}, 'done')"
+                                style="
+                                    padding:6px 12px;
+                                    border:none;
+                                    border-radius:5px;
+                                    margin-right:10px;
+                                    background:${doneBg};
+                                    color:white;
+                                ">
+                                Done
+                            </button>
+
+                            <button onclick="setStatus(${index}, 'review')"
+                                style="
+                                    padding:6px 12px;
+                                    border:none;
+                                    border-radius:5px;
+                                    background:${reviewBg};
+                                    color:white;
+                                ">
+                                Review
+                            </button>
+                        </div>
+
+                    </div>
+                `;
+            });
+        });
+    }
+
+    /* =========================
+       FORMAT 2: flat questions array
+    ========================= */
+
+    else if (data.questions) {
+
+        data.questions.forEach((q, index) => {
+
+            let status = state.status[index] || "";
+
+            let borderColor =
+                status === "done" ? "#22c55e" :
+                status === "review" ? "#f59e0b" :
+                "#38bdf8";
+
+            let doneBg = status === "done" ? "#22c55e" : "#334155";
+            let reviewBg = status === "review" ? "#f59e0b" : "#334155";
+
+            html += `
+                <div style="
+                    padding:12px;
+                    margin-bottom:12px;
+                    border-radius:8px;
+                    background:#1e293b;
+                    color:white;
+                    border-left:4px solid ${borderColor};
+                ">
+
+                    <div onclick="openLabQuestion(${index})"
+                         style="cursor:pointer; margin-bottom:10px;">
+                        Q${index + 1}. ${q}
+                    </div>
+
+                    <div>
+                        <button onclick="setStatus(${index}, 'done')"
+                            style="
+                                padding:6px 12px;
+                                border:none;
+                                border-radius:5px;
+                                margin-right:10px;
+                                background:${doneBg};
+                                color:white;
+                            ">
+                            Done
+                        </button>
+
+                        <button onclick="setStatus(${index}, 'review')"
+                            style="
+                                padding:6px 12px;
+                                border:none;
+                                border-radius:5px;
+                                background:${reviewBg};
+                                color:white;
+                            ">
+                            Review
+                        </button>
+                    </div>
+
+                </div>
+            `;
+        });
+    }
+
+    html += `
+        <button onclick="validateLab()"
+            style="margin-top:20px; padding:10px 18px; background:#16a34a; color:white; border:none; border-radius:6px;">
+            VALIDATE
+        </button>
+        </div>
+    `;
+
+    document.getElementById("contentArea").innerHTML = html;
+}
+
+/* =========================
+   OPEN QUESTION POPUP
+========================= */
+
+function openLabQuestion(index) {
+
+    const data = AppState.currentData;
+
+    let q;
+
+    if (data.sections) {
+
+        let all = [];
+
+        data.sections.forEach(s => {
+            (s.tasks || []).forEach(t => all.push(t));
+        });
+
+        q = all[index]?.question || "No question";
+
+    } else {
+        q = data.questions[index];
+    }
+
+    let html = `
+        <div id="labPopup"
+            style="
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                background:rgba(0,0,0,0.85);
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                z-index:9999;
+            ">
+
+            <div style="
+                background:#0f172a;
+                padding:25px;
+                width:650px;
+                border-radius:10px;
+                color:white;
+            ">
+
+                <h3 style="margin-bottom:20px;">
+                    Q${index + 1}. ${q}
+                </h3>
+
+                <button onclick="closeLabBox()"
+                    style="
+                        padding:8px 15px;
+                        background:#22c55e;
+                        border:none;
+                        color:white;
+                        border-radius:5px;
+                        cursor:pointer;
+                    ">
+                    BACK
+                </button>
+
+            </div>
+
+        </div>
+    `;
+
+    document.body.insertAdjacentHTML("beforeend", html);
+}
+
+/* =========================
+   CLOSE POPUP
+========================= */
+
+function closeLabBox() {
+    let box = document.getElementById("labPopup");
+    if (box) box.remove();
+}
+
+
+/* =========================
+   SET STATUS
+========================= */
+
+function setStatus(index, value) {
+    AppState.labState.status[index] = value;
+    renderLabQuestions();
+}
+
+
+/* =========================
+   VALIDATE LAB
+========================= */
+
+function validateLab() {
+
+    fetch("/evaluate_lab.php", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            status: AppState.labState.status,
+            lab: AppState.currentData.title
+        })
+    })
+    .then(res => res.text())
+    .then(data => {
+
+        document.getElementById("contentArea").innerHTML = `
+            <div style="padding:20px; color:white;">
+
+                <h2>LAB RESULT</h2>
+
+                <br>
+
+                ${data}
+
+                <br><br>
+
+                <button onclick="goBack()"
+                    style="
+                        padding:10px 15px;
+                        background:#16a34a;
+                        color:white;
+                        border:none;
+                        border-radius:6px;
+                        cursor:pointer;
+                    ">
+                    BACK
+                </button>
+
+            </div>
+        `;
+    })
+    .catch(err => {
+        console.error("Validation error:", err);
+        alert("Lab validation failed");
+    });
+}
+
+
+/* =========================
+   GO BACK
+========================= */
+
+function goBack() {
+    document.getElementById("contentArea").innerHTML = `
+        <h2>Welcome to LINOOPTECH</h2>
+        <p>Select QUIZ, LAB, TEST or PROJECT.</p>
+    `;
+}
+
+
+/* =========================
+   EXPORT
+========================= */
+
+window.loadLabSection = loadLabSection;
+window.renderLabQuestions = renderLabQuestions;
+window.openLabQuestion = openLabQuestion;
+window.closeLabBox = closeLabBox;
+window.setStatus = setStatus;
+window.validateLab = validateLab;
+window.goBack = goBack;

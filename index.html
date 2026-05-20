@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>LINOOPTECH INNOVATIONS PLATFORM</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- XTERM CSS -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/xterm/css/xterm.css" />
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <div class="logo-section">
+
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </div>
+
+            <h1>LINOOPTECH INNOVATIONS PLATFORM</h1>
+
+        </div>
+
+    </div>
+
+    <!-- MENU -->
+    <div class="menu">
+
+        <button onclick="loadSection('quiz')">QUIZ</button>
+        <button onclick="loadSection('lab')">LAB</button>
+        <button onclick="loadSection('test')">TEST</button>
+        <button onclick="loadSection('project')">PROJECT</button>
+        <button onclick="openTerminalFlow()">TERMINAL</button> 
+
+    </div>
+
+    <!-- MAIN -->
+    <div class="main-container">
+
+        <!-- LEFT PANEL -->
+        <div class="left-panel">
+
+            <h2>AVAILABLE ITEMS</h2>
+            <ul id="itemList"></ul>
+
+        </div>
+
+        <!-- RIGHT PANEL -->
+        <div class="right-panel default-view" id="rightPanel">
+
+            <!-- DEFAULT VIEW -->
+            <div class="welcome-title">
+
+               <h1 style="color:#1a237e;"> 
+	           Welcome to LINOOPTECH Innovation Environment
+	       </h1>
+
+            </div>
+
+            <!-- WORK AREA (LAB / TEST / PROJECT) -->
+            <div class="work-area">
+             <button id="toggleBtn"
+   		onclick="toggleQuestions()"
+        	style="
+        	    margin:2px;
+            	    padding:3px 6px;
+	            background:#1e40af;
+	            color:white;
+        	    border:none;
+         	    border-radius:3px;
+            	    cursor:pointer;
+		    width: 60px;
+              ">
+    	   HIDE LAB
+        </button>
+
+                <div class="question-panel" id="questions-panel">
+                    <div id="contentArea">Questions will appear here</div>
+                </div>
+
+                <div class="terminal-panel" id="terminal-panel">
+                    <div id="terminal"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- XTERM JS -->
+    <script src="https://cdn.jsdelivr.net/npm/xterm/lib/xterm.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit/lib/xterm-addon-fit.js"></script>
+
+    <!-- JS SCRIPTS -->
+    <script src="/js/main.js"></script>
+    <script src="/js/script_quiz.js"></script>
+    <script src="/js/script_lab.js"></script>
+    <script src="/js/script_test.js"></script>
+    <script src="/js/script_project.js"></script>
+    <script>
+
+    let hidden = false;
+
+    function toggleQuestions(){
+
+      	const questions =
+            document.getElementById("questions-panel");
+
+    	const terminal =
+            document.getElementById("terminal-panel");
+
+    	const btn =
+            document.getElementById("toggleBtn");
+
+    	if(hidden === false){
+
+           questions.style.display = "none";
+
+           terminal.style.width = "100%";
+
+           btn.innerText = "SHOW LAB";
+
+           hidden = true;
+
+    	} else {
+
+           questions.style.display = "block";
+
+           terminal.style.width = "65%";
+
+           btn.innerText = "HIDE LAB";
+
+           hidden = false;
+    	}
+     }
+
+</script>
+    <script>
+
+    function openTerminalFlow(){
+
+    	window.location.href = "create.html";
+
+     }
+
+</script>
+
+</body>
+
+</html>

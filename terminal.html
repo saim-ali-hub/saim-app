@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Linux Lab Terminal</title>
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/xterm/css/xterm.css" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: black;
+      overflow: hidden;
+    }
+
+    #terminal {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="terminal"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/xterm/lib/xterm.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit/lib/xterm-addon-fit.js"></script>
+
+  <script>
+
+    // ------------------------------------
+    // Terminal Setup
+    // ------------------------------------
+    const term = new Terminal({
+      cursorBlink: true,
+      scrollback: 10000,
+      convertEol: true,
+      fontSize: 14,
+      theme: {
+        background: "#000000"
+      }
+    });
+
+    const fitAddon = new FitAddon.FitAddon();
+
+    term.loadAddon(fitAddon);
+
+    term.open(document.getElementById("terminal"));
+
+    fitAddon.fit();
+
+    // ------------------------------------
+    // Username from URL
+    // Example:
+    // terminal.html?user=saimali
+    // ------------------------------------
+    const username =
+      new URLSearchParams(window.location.search)
+      .get("user") || "guest";
+
+    // ------------------------------------
+    // WebSocket Connection
+    // ------------------------------------
+    const ws = new WebSocket(
+      `ws://192.168.100.78:8000/ws/${username}`
+    );
+
+    // ------------------------------------
+    // On Connection Open
+    // ------------------------------------
+    ws.onopen = () => {
+
+      fitAddon.fit();
+
+      // send terminal size to backend
+      ws.send(JSON.stringify({
+        type: "resize",
+        cols: term.cols,
+        rows: term.rows
+      }));
+
+      term.write(
+        `\r\nConnected to Linux Lab as ${username}\r\n\r\n`
+      );
+    };
+
+    // ------------------------------------
+    // Receive Output From Backend
+    // ------------------------------------
+    ws.onmessage = (event) => {
+
+      if (event.data) {
+        term.write(event.data);
+      }
+    };
+
+    // ------------------------------------
+    // Connection Closed
+    // ------------------------------------
+    ws.onclose = () => {
+      term.write("\r\nConnection closed\r\n");
+    };
+
+    // ------------------------------------
+    // WebSocket Error
+    // ------------------------------------
+    ws.onerror = () => {
+      term.write("\r\nWebSocket error\r\n");
+    };
+
+    // ------------------------------------
+    // Send Keyboard Input to Backend
+    // ------------------------------------
+    term.onData((data) => {
+
+      if (ws.readyState === WebSocket.OPEN) {
+        ws.send(data);
+      }
+    });
+
+    // ------------------------------------
+    // Handle Browser Resize
+    // ------------------------------------
+    window.addEventListener("resize", () => {
+
+      fitAddon.fit();
+
+      if (ws.readyState === WebSocket.OPEN) {
+
+        ws.send(JSON.stringify({
+          type: "resize",
+          cols: term.cols,
+          rows: term.rows
+        }));
+      }
+    });
+
+  </script>
+
+</body>
+</html>

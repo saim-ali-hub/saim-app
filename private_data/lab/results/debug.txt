@@ -1,0 +1,1036 @@
+PHP HIT
+PHP HIT
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"test","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => test
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"test","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => test
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab2
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab2
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab2
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab2
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab2
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab2
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{"0":"review"}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+            [0] => review
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab2
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab2
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2.json","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab2.json
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1.json","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1.json
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"testuser15","lab":"lab1.json","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => testuser15
+    [lab] => lab1.json
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1.json","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1.json
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1.json","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1.json
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1.json","status":{}}
+
+PARSED INPUT:
+Array
+(
+    [user] => shahid
+    [lab] => lab1.json
+    [status] => Array
+        (
+        )
+
+)
+
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+LAB=lab1 USER=shahid
+
+RAW INPUT:
+{"user":"shahid","lab":"lab2","status":{"0":"review","1":"review","2":"review"}}
+
+PARSED:
+Array
+(
+    [user] => shahid
+    [lab] => lab2
+    [status] => Array
+        (
+            [0] => review
+            [1] => review
+            [2] => review
+        )
+
+)
+
+LAB=lab2 USER=shahid
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{"0":"done"}}
+
+PARSED:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+            [0] => done
+        )
+
+)
+
+LAB=lab1 USER=shahid
+
+RAW INPUT:
+{"user":"shahid","lab":"lab1","status":{}}
+
+PARSED:
+Array
+(
+    [user] => shahid
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+LAB=lab1 USER=shahid
+
+RAW INPUT:
+{"user":"testuser15","lab":"lab1","status":{"0":"done","1":"done","2":"done","3":"done","4":"done","5":"done","6":"done","7":"done","8":"done","9":"done","10":"done","11":"done","12":"done","13":"done"}}
+
+PARSED:
+Array
+(
+    [user] => testuser15
+    [lab] => lab1
+    [status] => Array
+        (
+            [0] => done
+            [1] => done
+            [2] => done
+            [3] => done
+            [4] => done
+            [5] => done
+            [6] => done
+            [7] => done
+            [8] => done
+            [9] => done
+            [10] => done
+            [11] => done
+            [12] => done
+            [13] => done
+        )
+
+)
+
+LAB=lab1 USER=testuser15
+
+RAW INPUT:
+{"user":"testuser11","lab":"lab2","status":{}}
+
+PARSED:
+Array
+(
+    [user] => testuser11
+    [lab] => lab2
+    [status] => Array
+        (
+        )
+
+)
+
+LAB=lab2 USER=testuser11
+
+RAW INPUT:
+{"user":"testuser15","lab":"lab1","status":{}}
+
+PARSED:
+Array
+(
+    [user] => testuser15
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+LAB=lab1 USER=testuser15
+
+RAW INPUT:
+{"user":"testuser15","lab":"lab1","status":{}}
+
+PARSED:
+Array
+(
+    [user] => testuser15
+    [lab] => lab1
+    [status] => Array
+        (
+        )
+
+)
+
+LAB=lab1 USER=testuser15
+
+RAW INPUT:
+{"user":"testuser15","lab":"lab1","status":{"0":"review"}}
+
+PARSED:
+Array
+(
+    [user] => testuser15
+    [lab] => lab1
+    [status] => Array
+        (
+            [0] => review
+        )
+
+)
+
+LAB=lab1 USER=testuser15
+

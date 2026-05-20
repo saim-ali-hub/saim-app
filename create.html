@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create User</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: #111827;
+      width: 460px;
+      padding: 40px;
+      border-radius: 18px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+
+    h1 { color: #93c5fd; }
+
+    input {
+      width: 90%;
+      padding: 13px;
+      margin: 10px 0;
+      border-radius: 9px;
+      border: none;
+      font-size: 15px;
+    }
+
+    button {
+      width: 96%;
+      padding: 14px;
+      margin-top: 15px;
+      background: #16a34a;
+      color: white;
+      border: none;
+      border-radius: 9px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #15803d;
+    }
+
+    a {
+      color: #93c5fd;
+      display: block;
+      margin-top: 18px;
+    }
+
+    .note {
+      color: #d1d5db;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+  <img src="/images/linoop1.png" alt="Linoop Logo" class="logo">
+
+    <h1>Create New Linux User</h1>
+  
+    <p class="note">Username must be lowercase, 3–21 characters.</p>
+
+    <input id="username" type="text" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    <input id="password" type="confirm" placeholder="Confirm Password">
+
+    <button onclick="createUser()">Create User</button>
+    <button onclick="loginUser()">Login with Existing User</button>
+
+    <a href="/">Back to Home</a>
+  </div>
+
+<script>
+
+async function createUser() {
+
+    const username =
+        document.getElementById("username").value;
+
+    const password =
+        document.getElementById("password").value;
+
+    if (!username || !password) {
+
+        alert("Username and password required");
+        return;
+    }
+
+    if (username.length < 3) {
+
+        alert("Username too short");
+        return;
+    }
+
+    try {
+
+        const res = await fetch(
+            "http://192.168.100.78:8000/register",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    username,
+                    password
+                })
+            }
+        );
+
+        const data = await res.json();
+
+        console.log(data);
+
+        if (!res.ok) {
+
+            alert(data.detail || "User creation failed");
+            return;
+        }
+
+        alert(
+            "User created successfully. Redirecting to login..."
+        );
+
+        setTimeout(() => {
+
+            window.location.href = "/login.html";
+
+        }, 1500);
+
+    } catch (err) {
+
+        console.error(err);
+
+        alert("Backend error - check server logs");
+    }
+}
+
+function loginUser() {
+
+    window.location.href = "/login.html";
+}
+
+</script>
+</body>
+</html>

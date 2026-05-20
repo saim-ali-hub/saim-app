@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Quiz 1 - Linux Basic command & Networking",
+        "file": "quiz1.json"
+    },
+    {
+        "name": "Quiz 2 - Basic commands & Directory Knowledge",
+        "file": "quiz2.json"
+    }
+]
